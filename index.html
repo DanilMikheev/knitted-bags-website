@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="jquery.modal.min.css">
+    <title>Knitted Things</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div id="navbar__shadow"></div>
+        <div class="container">
+
+            <div class="header__body">
+                <a href="#" class="header__logo">Knitted Things</a>
+
+                <div class="header__burger">
+                    <span></span>
+                </div>
+
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li>
+                            <a href="#" class="header__link">Главная</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">Обо мне</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">Галерея</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">Отзывы</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+
+        </div>
+    </header>
+    <!-- / Header -->
+    <main>
+
+        <section class="section-home-page">
+            <div class="home-page">
+                <div class="home-page__title">
+                    <h2>Вязанные сумки <span>ручной</span> работы</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
+                <div class="home-page__picture">
+                    <div class="picture-bg parallax-bg-1"></div>
+                    <div class="picture-bg parallax-bg-2"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-about-us">
+            <div class="about-us">
+                <div class="about-us__title">
+                    <h3>Обо мне</h3>
+                    <div class="about-us__text">
+                        <p>Привет меня зовут Виктория я занимаюсь вязанием разных вещей.</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="about-us__picture">
+                    <div class="about-us-img"></div>
+                    <div class="about-us-bg"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-gallery">
+            <div class="gallery-body">
+                <div class="gallery-body__title">
+                    <h2>Галерея</h2>
+                </div>
+
+                <!-- Modal HTML embedded directly into document -->
+                <div id="ex1" class="modal">
+                    <img class="link__img-full" alt="Желтая сумка" src="img/03.jpg">
+                    <a href="#close-modal" rel="modal:close" class="close-modal">Close</a>
+                </div>
+
+                <div id="ex2" class="modal">
+                    <img class="link__img-full" alt="Синяя сумка" src="img/04.jpg">
+                    <a href="#close-modal" rel="modal:close" class="close-modal">Close</a>
+                </div>
+                <div id="ex3" class="modal">
+                    <img class="link__img-full" alt="Серая сумка" src="img/05.jpg">
+                    <a href="#close-modal" rel="modal:close" class="close-modal">Close</a>
+                </div>
+                <div id="ex4" class="modal">
+                    <img class="link__img-full" alt="Розовая сумка" src="img/06.jpg">
+                    <a href="#close-modal" rel="modal:close" class="close-modal">Close</a>
+                </div>
+                <div id="ex5" class="modal">
+                    <img class="link__img-full" alt="Красная сумка" src="img/07.jpg">
+                    <a href="#close-modal" rel="modal:close" class="close-modal">Close</a>
+                </div>
+                <div id="ex6" class="modal">
+                    <img class="link__img-full" alt="Серая шапка" src="img/08.jpg">
+                    <a href="#close-modal" rel="modal:close" class="close-modal">Close</a>
+                </div>
+
+
+                <div class="content">
+                    <ul>
+                        <li class="content__item">
+                            <a href="#ex1" rel="modal:open">
+                                <img class="link__img" alt="Желтая сумка" src="img/03.jpg">
+                            </a>
+                        </li>
+                        <li class="content__item">
+                            <a href="#ex2" rel="modal:open">
+                                <img class="link__img" alt="Синяя сумка" src="img/04.jpg">
+                            </a>
+                        </li>
+                        <li class="content__item">
+                            <a href="#ex3" rel="modal:open">
+                                <img class="link__img" alt="Серая сумка" src="img/05.jpg">
+                            </a>
+                        </li>
+                        <li class="content__item">
+                            <a href="#ex4" rel="modal:open">
+                                <img class="link__img" alt="Розовая сумка" src="img/06.jpg">
+                            </a>
+                        </li>
+                        <li class="content__item">
+                            <a href="#ex5" rel="modal:open">
+                                <img class="link__img" alt="Красная сумка" src="img/07.jpg">
+                            </a>
+                        </li>
+                        <li class="content__item">
+                            <a href="#ex6" rel="modal:open">
+                                <img class="link__img" alt="Серая шапка" src="img/08.jpg">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="more">
+                    <a href="#" class="btn-more">Посмотреть больше</a>
+                </div>
+            </div>
+        </section>
+        <section class="section-reviews">
+            <div class="reviews">
+                <div class="reviews__title">
+                    <h3>Отзывы</h3>
+                </div>
+                <div class="cards__body">
+                    <div class="cards__item">
+                        <div> <img class="cards__img" alt="Человек" src="icon/01.svg"></div>
+                        <div class="cards__text">
+                            <span>Мария</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <div> <img class="cards__img" alt="Человек" src="icon/01.svg"></div>
+                        <div class="cards__text">
+                            <span>Анна</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <div> <img class="cards__img" alt="Человек" src="icon/01.svg"></div>
+                        <div class="cards__text">
+                            <span>Катя</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <div> <img class="cards__img" alt="Человек" src="icon/01.svg"></div>
+                        <div class="cards__text">
+                            <span>Наталья</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <div> <img class="cards__img" alt="Человек" src="icon/01.svg"></div>
+                        <div class="cards__text">
+                            <span>Кристина</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <div> <img class="cards__img" alt="Человек" src="icon/01.svg"></div>
+                        <div class="cards__text">
+                            <span>Алина</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-contact">
+            <div class="contact__body">
+                <div class="contact__title">
+                    <h3>Контакты</h3>
+                </div>
+                <div class="contact__block">
+                    <ul>
+                        <li>
+                            <span>Телефон:</span>
+                            <a href="tel:123-456-7890">123-456-7890</a>
+                        </li>
+                        <li>
+                            <span>Email:</span>
+                            <a href="mailto:Knitted@gmail.com">Knitted@gmail.com</a>
+                        </li>
+                        <li>
+                            <span>Я в социальных сетях:</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="contact-bg-bg3"></div>
+            <div class="contact-bg-bg4"></div>
+        </section>
+
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/slider.js" async></script>
+
+    <script src="js/jquery.modal.min.js"></script>
+    <script src="js/modal-img.js" defer></script>
+    <script src="js/script.js"></script>
+    <script src="js/parallax.js" async></script>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, slide down the navbar
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("navbar__shadow").style.top = "0";
+
+            } else {
+                document.getElementById("navbar__shadow").style.top = "-70px";
+            }
+        }
+    </script>
+</body>
+
+</html>
