@@ -210,7 +210,7 @@ body {
 }
 .about-us__title h3.active__anim {
     transform: translate(0px, 0px);
-    opacity: 1;
+    opacity: 0;
 }
 
 .about-us__text {
